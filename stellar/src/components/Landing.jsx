@@ -1,3 +1,7 @@
+import Footer from "./Footer";
+
+
+
 const Link = ({ href, className, children }) => (
     <a href={href} >
       {children}
@@ -174,46 +178,8 @@ export default function LandingPage() {
           </div>
         </section>
       </main>
-      <footer className="bg-gray-900 text-white py-10">
-        <div className="container max-w-4xl mx-auto px-4 md:px-6 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold">Company</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="#">About Us</Link></li>
-              <li><Link href="#">Careers</Link></li>
-              <li><Link href="#">Blog</Link></li>
-              <li><Link href="#">Press</Link></li>
-            </ul>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold">Support</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="#">Help Center</Link></li>
-              <li><Link href="#">Contact Us</Link></li>
-              <li><Link href="#">Privacy Policy</Link></li>
-              <li><Link href="#">Terms of Service</Link></li>
-            </ul>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold">Community</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="#">Freelancers</Link></li>
-              <li><Link href="#">Clients</Link></li>
-              <li><Link href="#">Forums</Link></li>
-              <li><Link href="#">Events</Link></li>
-            </ul>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold">Follow Us</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="#">Twitter</Link></li>
-              <li><Link href="#">LinkedIn</Link></li>
-              <li><Link href="#">Facebook</Link></li>
-              <li><Link href="#">Instagram</Link></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+
+      <Footer />
     </div>
   );
 }

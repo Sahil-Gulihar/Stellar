@@ -36,19 +36,13 @@ UIButton.displayName = 'UIButton';
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-gray-900 text-white">
       <Section>
         <Container className="grid md:grid-cols-2 gap-12">
           <div className="flex flex-col gap-6 not-prose">
             <a href="/">
               <h3 className="sr-only">brijr/components</h3>
-              <img
-                src="path/to/your/logo.png" // Replace with the actual path to your logo
-                alt="Logo"
-                width={120}
-                height={27.27}
-                className="dark:invert hover:opacity-75 transition-all"
-              />
+              <h1 className='text-5xl font-bold'>Decentr</h1>
             </a>
             <p>
               brijr/components is a collection of Next.js, React, Typescript
