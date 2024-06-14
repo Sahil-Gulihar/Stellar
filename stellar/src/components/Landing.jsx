@@ -64,39 +64,40 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section className="py-20 md:py-32">
-          <div className="container max-w-4xl mx-auto px-4 md:px-6 grid gap-12">
-            <div className="text-center space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight md:text-4xl">How Decentr Works</h2>
-              <p className="text-lg text-gray-500 dark:text-gray-400">
-                Decentr is a decentralized platform that connects freelancers and clients seamlessly.
-              </p>
-            </div>
-            <div className="grid gap-8 md:grid-cols-3">
-              <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl space-y-4">
-                <UserIcon className="w-10 h-10 text-[#00b894]" />
-                <h3 className="text-xl font-semibold">Create a Profile</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Build your professional profile, showcase your skills, and let clients discover you.
-                </p>
-              </div>
-              <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl space-y-4">
-                <BriefcaseIcon className="w-10 h-10 text-[#00b894]" />
-                <h3 className="text-xl font-semibold">Browse and Hire</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Clients can browse freelancer profiles, review portfolios, and hire the perfect talent for their projects.
-                </p>
-              </div>
-              <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl space-y-4">
-                <WalletIcon className="w-10 h-10 text-[#00b894]" />
-                <h3 className="text-xl font-semibold">Secure Payments</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Decentr's escrow system ensures secure payments and transparent transactions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <section className="py-20 md:py-32 bg-gray-200">
+  <div className="container max-w-4xl mx-auto px-4 md:px-6 grid gap-12">
+    <div className="text-center space-y-4">
+      <h2 className="text-3xl font-bold tracking-tight md:text-4xl animate__animated animate__fadeInDown">How Decentr Works</h2>
+      <p className="text-lg text-black ">
+        Decentr is a decentralized platform that connects freelancers and clients seamlessly.
+      </p>
+    </div>
+    <div className="grid gap-8 md:grid-cols-3">
+    <div className="bg-white rounded-xl  border border-black shadow-md p-6 space-y-4 hover:shadow-lg animate__animated animate__fadeInUp">
+        <UserIcon className="w-10 h-10 text-[#00b894]" />
+        <h3 className="text-xl font-semibold">Create a Profile</h3>
+        <p className="text-gray-500 dark:text-gray-400">
+          Build your professional profile, showcase your skills, and let clients discover you.
+        </p>
+      </div>
+      <div className="bg-white rounded-xl  border border-black shadow-md p-6 space-y-4 hover:shadow-lg animate__animated animate__fadeInUp">
+        <BriefcaseIcon className="w-10 h-10 text-[#00b894]" />
+        <h3 className="text-xl font-semibold">Browse and Hire</h3>
+        <p className="text-gray-500 dark:text-gray-400">
+          Clients can browse freelancer profiles, review portfolios, and hire the perfect talent for their projects.
+        </p>
+      </div>
+      <div className="bg-white rounded-xl  border border-black shadow-md p-6 space-y-4 hover:shadow-lg animate__animated animate__fadeInUp">
+        <WalletIcon className="w-10 h-10 text-[#00b894]" />
+        <h3 className="text-xl font-semibold">Secure Payments</h3>
+        <p className="text-gray-500 dark:text-gray-400">
+          Decentr's escrow system ensures secure payments and transparent transactions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
         <section className="bg-gray-100 dark:bg-gray-800 py-20 md:py-32">
           <div className="container max-w-4xl mx-auto px-4 md:px-6 grid gap-12">
             <div className="text-center space-y-4">
