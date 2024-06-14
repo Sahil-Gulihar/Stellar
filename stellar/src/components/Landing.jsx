@@ -1,6 +1,12 @@
-import Link from "next/link";
+import { useNavigate } from "react-router-dom";
 
-export default function Component() {
+const Link = ({ href, className, children }) => (
+    <a href={href} >
+      {children}
+    </a>
+  );
+export default function LandingPage() {
+    // const navigate = useNavigate()
   return (
     <div className="flex flex-col min-h-dvh">
       <header className="bg-gray-900 text-white px-4 lg:px-6 h-16 flex items-center justify-between">
@@ -23,12 +29,19 @@ export default function Component() {
           </Link>
         </nav>
         <div className="flex items-center gap-4">
-          <button className="text-white hover:bg-gray-800 border border-white py-2 px-4 rounded">
+          <Link href={'/signin'}>
+          <button 
+            className="text-white hover:bg-gray-800 border border-white py-2 px-4 rounded">
             Sign In
           </button>
-          <button className="bg-[#00b894] hover:bg-[#00a185] text-white py-2 px-4 rounded">
+          </Link>
+          <Link href={'/signup'}>
+
+          <button
+          className="bg-[#00b894] hover:bg-[#00a185] text-white py-2 px-4 rounded">
             Sign Up
           </button>
+          </Link>
         </div>
       </header>
       <main className="flex-1">
