@@ -1,5 +1,7 @@
+import { MountainIcon } from "./Signin";
+
 const Link = ({ href, className, children }) => (
-    <a href={href} >
+    <a href={href} className={className}>
       {children}
     </a>
   );
@@ -8,9 +10,12 @@ export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-dvh">
       <header className="bg-gray-900 text-white px-4 lg:px-6 h-16 flex items-center justify-between">
-        <Link href="#" className="flex items-center gap-2 text-lg font-semibold" prefetch={false}>
-          <BriefcaseIcon className="w-6 h-6" />
-          <span>Decentr</span>
+        <Link href="#" prefetch={false}>
+        <div className="flex items-center justify-center gap-4">
+        <MountainIcon className="h-10 w-10 text-blue-500" />
+          <span className="text-3xl font-semibold">Decentr</span>
+        </div>
+          
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           <Link href="#" className="hover:text-gray-400" prefetch={false}>

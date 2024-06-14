@@ -42,7 +42,7 @@ const Input = ({ id, type, className, ...props }) => (
   />
 );
 
-const MountainIcon = (props) => (
+export const MountainIcon = (props) => (
   <svg
     {...props}
     xmlns="http://www.w3.org/2000/svg"
