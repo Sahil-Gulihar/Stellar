@@ -60,7 +60,7 @@ const MountainIcon = (props) => (
 
 export default function SignupComp() {
   return (
-    <div className="flex min-h-screen flex-col bg-gray-950 text-gray-50">
+    <div className="flex min-h-screen flex-col bg-gray-900 text-gray-50">
       <header className="container mx-auto flex items-center justify-between px-4 py-6 md:px-6">
         <Link href="#" className="flex items-center gap-2">
           <MountainIcon className="h-6 w-6 text-blue-500" />

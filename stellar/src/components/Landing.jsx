@@ -1,5 +1,3 @@
-import { useNavigate } from "react-router-dom";
-
 const Link = ({ href, className, children }) => (
     <a href={href} >
       {children}
