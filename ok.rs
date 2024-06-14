@@ -45,7 +45,7 @@ impl Transaction {
         Self {
             value,
             receiver,
-            gas_price: 0.25 * value,
+            gas_price: 0.005 * value,
             misc: (time_until_deadline as f64 + rating) * 0.3,
             time_until_deadline,
             rating,
