@@ -21,4 +21,7 @@ pnpm-debug.log*
 
 pnpm-lock.yaml
 
+.vscode
+
+ 
 .astronodule_modules package-lock.json
