@@ -1,10 +1,11 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
- import LandingPage from './components/Landing'
+ 
 import SignIn from './components/SignIn'
 import SignupComp from './components/Signup'
 
+import LandingPage from './components/Landing'
 
 
 
