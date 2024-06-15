@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import { MountainIcon } from "./SignIn";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
+import FAQ from "./FAQ";
 
 const Link = ({ href, className, children }:{href:string,className?:string,children:ReactNode}) => (
     <a href={href} className={className}>
@@ -184,7 +185,7 @@ export default function LandingPage() {
           </div>
         </section>
       </main>
-
+    <FAQ />
       <Footer/>
     </div>
   );
