@@ -22,16 +22,14 @@ export default function LandingPage() {
           
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-          <Link href="#" className="hover:text-gray-400">
+          <Link href="/signup" className="hover:text-gray-400">
             Find Freelancers
           </Link>
-          <Link href="#" className="hover:text-gray-400">
+          <Link href="/signup" className="hover:text-gray-400">
             Post a Job
           </Link>
-          <Link href="#" className="hover:text-gray-400">
-            Pricing
-          </Link>
-          <Link href="#" className="hover:text-gray-400">
+        
+          <Link href="/aboutus" className="hover:text-gray-400">
             About
           </Link>
         </nav>

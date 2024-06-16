@@ -5,8 +5,9 @@ import './App.css'
 import SignIn from './components/SignIn'
 import SignupComp from './components/Signup'
 
-import LandingPage from './components/Landing'
 
+import About from './components/Aboutus'
+import LandingPage from './components/Landing'
 
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<LandingPage />}/>
+      <Route path="/" element={< LandingPage/>}/>
       <Route path="/signin" element={<SignIn/>}/>
       <Route path="/signup" element={<SignupComp/>}/>
+      <Route path="/aboutus" element={<About/>}/>
     </Routes>
     </BrowserRouter>
     
