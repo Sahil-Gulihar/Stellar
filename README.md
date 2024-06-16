@@ -13,4 +13,4 @@ This project is a decentralized freelancing platform built on the Stellar blockc
 
 ## Architecture
 
-![Architecture Diagram](.png)
+![Architecture Diagram](https://github.com/Sahil-Gulihar/Stellar/blob/main/Screenshot%202024-06-16%20160326.png)
