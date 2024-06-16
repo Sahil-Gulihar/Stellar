@@ -1,1 +1,0 @@
-/home/gulshansharma/Stellar/contracts/freelance/target/wasm32-unknown-unknown/release/freelance.wasm: /home/gulshansharma/Stellar/contracts/freelance/src/events.rs /home/gulshansharma/Stellar/contracts/freelance/src/lib.rs
