@@ -10,3 +10,7 @@ This project is a decentralized freelancing platform built on the Stellar blockc
 - **Security**: Utilizing blockchain for secure transactions and data integrity.
 - **Smart Contracts**: Rust-based smart contracts to automate and enforce agreements between freelancers and clients.
 - **User-Friendly Interface**: A seamless UI/UX for both freelancers and clients.
+
+## Architecture
+
+![Architecture Diagram](.png)
