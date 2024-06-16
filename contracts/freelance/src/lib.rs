@@ -1,5 +1,6 @@
 #![no_std]
-
+#![allow(unused_imports)]
+#![allow(dead_code)]
 use soroban_sdk::xdr::{ScErrorCode, ScErrorType};
 use soroban_sdk::{
     contract, contractimpl, contracttype, token, Address, Env, IntoVal, String, TryFromVal, Val,
@@ -221,11 +222,11 @@ impl Work {
 
         let token_id = get_token(&e);
 
-        let ratings = get_rating(&e);
+        let _ratings = get_rating(&e);
+        #[allow(non_snake_case)]
+        let _Freelancer = get_freelancer(&e);
 
-        let Freelancer = get_freelancer(&e);
-
-        let balance = get_user_deposited(&e, &user);
+        let _balance = get_user_deposited(&e, &user);
 
         let client = token::Client::new(&e, &token_id);
 

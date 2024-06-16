@@ -1,1 +1,1 @@
-/home/Kingpin/Desktop/stellar/Stellar/contracts/freelance/target/wasm32-unknown-unknown/release/freelance.wasm: /home/Kingpin/Desktop/stellar/Stellar/contracts/freelance/src/events.rs /home/Kingpin/Desktop/stellar/Stellar/contracts/freelance/src/lib.rs
+/home/gulshansharma/Stellar/contracts/freelance/target/wasm32-unknown-unknown/release/freelance.wasm: /home/gulshansharma/Stellar/contracts/freelance/src/events.rs /home/gulshansharma/Stellar/contracts/freelance/src/lib.rs
